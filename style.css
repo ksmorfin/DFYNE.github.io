@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Navigation bar */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.badge-1 {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 8px 0;
+    letter-spacing: 0.5px;
+}
+
+.badge-1 .underline {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 12px;
+    margin-left: 60px;
+}
+
+.navegation a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 60px;
+}
+
+.media img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    width: 90%;
+    margin: auto;
+}
+
+.badge-2 {
+    background-color: black;
+    text-align: center;
+}
+
+.badge-2 img {
+    width: 300px;
+    height: auto;
+    margin: 50px 0 0 0;
+}
+
+.DFYNE-crew {
+    width: 100%;
+    height: auto;
+}
+
+/*Catalogue Section*/
+#NEW-DROPS {
+    background-color: white;
+    margin: 50px 0 30px 40px;
+}
+
+#NEW-DROPS .desc-catalogue {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 3.0px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#NEW-DROPS .desc-catalogue span {
+    display: block;
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 3.0px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* Catalogue-women Grid */
+.catalogue-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.catalogue-card {
+    width: 330px;
+    border-radius: 12px;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.catalogue-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    color: black;
+}
+
+.desc1 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: gray;
+}
+
+.price {
+    display: block;
+    font-size: 11px;
+    color: #000;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+
+.rate {
+    font-size: 12px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+#NEW-DROPS .shop {
+    display: block;
+    margin: 40px auto 0;
+    color: black;
+    border: 1px solid #CCCCCC;
+    padding: 12px 25px;
+    border-radius: 30px;
+    letter-spacing: 2.0px;
+    font-size: 10px;
+    cursor: pointer;
+    background: transparent;
+    transition: border-color 0.2s ease;
+}
+
+#NEW-DROPS .shop:hover {
+    border-color: black;
+}
+
+#shopping {
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Shopping Grid */
+#shopping .shopping-grid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    background-color: white;
+}
+
+#shopping .shopping-card {
+    position: relative;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+#shopping .shopping-card img {
+    width: 665px;
+    display: block;
+}
+
+#shopping .shop-btn {
+    position: absolute;
+    bottom: 32px;
+    /* ajústalo */
+    left: 39.7%;
+    color: black;
+    border: 1px solid #CCCCCC;
+    padding: 12px 30px;
+    border-radius: 30px;
+    letter-spacing: 2.0px;
+    font-size: 10px;
+    cursor: pointer;
+    background: white;
+    transition: border-color 0.2s ease;
+}
+
+#shopping .shop-btn:hover {
+    border-color: black;
+}
+
+/* DFYNE Charge Section */
+#DFYNE-charge {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.DFYNE-charge {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#DFYNE-charge .charge-btn {
+    position: absolute;
+    bottom: 40px;
+    /* ajústalo */
+    left: 40px;
+    color: black;
+    border: 1px solid #CCCCCC;
+    padding: 12px 30px;
+    border-radius: 30px;
+    letter-spacing: 2.0px;
+    font-size: 10px;
+    cursor: pointer;
+    background: white;
+    transition: border-color 0.2s ease;
+}
+
+#DFYNE-charge .charge-btn:hover {
+    border-color: black;
+}
+
+/* LEVEL UP Card*/
+.levelup-card {
+    width: 260px;
+    border-radius: 12px;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.levelup-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+#NEW-DROPS .row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#NEW-DROPS .samples-grid {
+    display: flex;
+    gap: 5px;
+}
+
+.samples-grid img {
+    width: 80px;
+    height: auto;
+    border-radius: 4px;
+    margin: 15px 0 -10px 2px;
+}
+
+#NEW-DROPS .view-all {
+    position: relative;
+    top: 10px;
+    /* MISMO valor que el margin negativo */
+    margin-right: 45px;
+    color: black;
+    border: 1px solid #CCCCCC;
+    padding: 12px 25px;
+    border-radius: 30px;
+    letter-spacing: 2.0px;
+    font-size: 10px;
+    cursor: pointer;
+    background: transparent;
+    transition: border-color 0.2s ease;
+}
+
+#NEW-DROPS .view-all:hover {
+    border-color: black;
+}
+
+/*Footer section*/
+.footer1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #F9F9F9;
+    color: black;
+}
+
+.footer1 .subscribe {
+    margin: 30px 0 20px 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.footer1 .subscribe1 {
+    margin: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+/* INPUT estilo línea */
+.newsletter-form input {
+    width: 500px;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 10px 5px;
+    font-size: 14px;
+    outline: none;
+    text-align: left;
+    background-color: #F9F9F9;
+}
+
+/* Button */
+.newsletter-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* Footer 2 */
+.footer2 {
+    background-color: white;
+    color: black;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    margin: 30px 0 30px 40px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 0 0 120px 40px;
+    max-width: 50%;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column p {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    transition: color 0.3s ease;
+}

@@ -1,15 +1,8 @@
 
 # Personal Trainer
 
-Mi primera web profesional como Entrenadora Personal, te invito a que la visites y conozcas todos los servicios que tengo para ti y lograr tu mejor version 
+Mi primera practica de web profesional como Entrenadora Personal, en donde hago una peque;a replica de una de mis marcas favoritas de ropa deportiva te invito a que la visites y veas todo lo que he logrado aprender en este curso de DEV.F :) 
 
 LET'S TRAIN! :) 💪🏻
 
-https://ksmorfin.github.io/First-Web.github.io/
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+https://ksmorfin.github.io/DFYNE.github.io/
